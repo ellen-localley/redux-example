@@ -4,7 +4,7 @@ import './App.css';
 import Member from "./pages/Member";
 
 const App = () =>
-    <div className="App">
+    <div>
       <Member/>
     </div>
 

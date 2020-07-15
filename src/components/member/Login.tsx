@@ -75,8 +75,8 @@ class Login extends Component<any, any>{
 }
 
 function mapStateToProps(state) {
-    const { loginIn } = state.userReducers
-    return { loginIn }
+    const { loggingIn } = state.userReducers
+    return { loggingIn }
 }
 
 const actionCreators = {
