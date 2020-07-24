@@ -8,11 +8,13 @@ import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 // import Info from "./components/Signin";
 // import SigninTest from "./components/SigninTest";
-import HideTest from "./components/HideTest";
+// import HideTest from "./components/HideTest";
+// import TodoContainer from "./todos/TodoContainer";
+import CounterContainer from "./counter/CounterContainer";
 
 const App = () =>
     <div>
-      <HideTest/>
+      <CounterContainer/>
     </div>
 
 export default App;
